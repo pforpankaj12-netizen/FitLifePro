@@ -449,11 +449,12 @@ fun SummaryCard(
 ) {
     Card(modifier) {
         Column(
-            Modifier.padding(14.dp),
-           verticalArrangement = Arrangement.spacedBy(6.dp)
+            Modifier.padding(14.dp),verticalArrangement = Arrangement.spacedBy(6.dp)
         ) {
             Text(title, style = MaterialTheme.typography.bodyMedium)
             Text(value, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         }
     }
 }
+
+           
